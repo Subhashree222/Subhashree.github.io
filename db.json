@@ -1,0 +1,58 @@
+{
+  "user": [
+    {
+      "id": "Subha",
+      "name": "Subhashree Mohapatra",
+      "password": "Subha1473@",
+      "email": "subha@gmail.com",
+      "role": "admin",
+      "isActive": true
+    },
+    {
+      "id": "Subha2",
+      "name": "abc def",
+      "password": "Abc@123",
+      "email": "abc@gmail.com",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": "Subha3",
+      "name": "abcd efgh",
+      "password": "Abcd@123",
+      "email": "abcd@gmail.com",
+      "role": "visitor",
+      "isActive": true
+    },
+    {
+      "id": "Subha4",
+      "name": "abc xyz",
+      "password": "Xyz@123",
+      "email": "xyz@gmail.com",
+      "role": "",
+      "isActive": true
+    },
+    {
+      "id": "tester",
+      "name": "Testing",
+      "password": "Test@1234",
+      "email": "test@email.com",
+      "role": "visitor",
+      "isActive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "admin",
+      "name": "admin"
+    },
+    {
+      "code": "user",
+      "name": "user"
+    },
+    {
+      "code": "visitor",
+      "name": "visitor"
+    }
+  ]
+}
