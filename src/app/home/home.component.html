@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row" *ngFor="let uName of userDataName">
+        
+        <div class="col-sm-12 text-center" *ngIf = "isAdmin">
+            <h2 class="text-center">Hey! {{uName.id}}..Welcome to Admin Page</h2>
+            <!-- <a routerLink = "/register" class="text-center">Register Here</a> -->
+        </div>
+        <div class="text-center" *ngIf = "isUser">
+            <h2 class="text-center">Hey! User..Welcome to Seller Page</h2>
+            <p>Please add your product for selling</p>
+        </div>
+        <div class="text-center" *ngIf="isVisitor">
+            <h2 class="text-center">Hey! Visitor..Welcome to Visitor Page</h2>
+            <p>Please check the products</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <h3>User Login Page</h3><br>
+            <form [formGroup] = "loginForm" (ngSubmit) = "login()">
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label for="exampleInputEmail1">User Name:</label>
+                        </div>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" 
+                                   placeholder="Enter your Name"
+                                   formControlName = "username" #uName>
+                        </div>
+                    </div> 
+                </div><br>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label for="exampleInputPassword1">Password:</label>
+                        </div>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control"
+                             id="exampleInputPassword1" placeholder="Enter Password"
+                             formControlName = "password">
+                        </div>
+                    </div> 
+                </div><br>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Login</button>&nbsp;&nbsp;
+                    <a routerLink="/register">Create New Account</a>
+                </div>
+                
+            </form>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+</div>
+
